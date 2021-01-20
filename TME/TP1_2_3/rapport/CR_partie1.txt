@@ -1,0 +1,23 @@
+LOUET Joseph
+KARMIM Yannis 
+
+
+Compte Rendu TP1 Mercredi 18 Septembre 2019. 
+
+Pour cette séance on a fini de coder la fonction compute_sift_region qui donne des résultats corrects. On est donc arrivé à la fin de la partie 1.2 
+
+
+
+Réponses aux questions : 
+
+
+Q.4 : On doit discrétiser les orientations afin de pouvoir construire notre histogramme Renc. 
+
+Q.6 : Le principe du SIFT est une façon raisonnable de faire de l'analyse d'image, car on construit un vecteur caractéristique d'une image qui est robuste aux rotations puis SIFT nous permet de repérer les régions pertinentes de l'image en détectant les variations à l'aide des Gradients Ix, Iy et on travail avec des données beaucoup plus petite, en l'occurrence des vecteurs deux fois moins volumineux que la taille du patch. 
+
+
+
+ 
+
+
+

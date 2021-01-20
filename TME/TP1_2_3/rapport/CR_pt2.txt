@@ -1,0 +1,21 @@
+Questions à répondre Partie 2 
+
+
+Q8. 
+
+Chaque clé du dictionnaire qui est une centroide de notre kmeans représente un descripteur sift type. 
+Dans le processus de reconnaissance d'image, pour une image qu'on veut reconnaitre: on va lui calculer plusieurs descripteurs sift que l'on va ensuite assigner à nos sifts type. Ainsi en trouvant les sifts les plus proches, on peut déterminer les formes/objets qui composent cette image. 
+On peut voir des sifts comme des mots et une image comme un document. Plusieurs de ces mots (sifts) donnent un document (image). 
+
+
+Q10. 
+
+Hyper - paramètre à déterminer avec une cross validation par exemple, mais vu le temps d'execution du kmeans... En pratique c'est plutôt arbitraire 
+Apprentissage non supervisé avec kmeans -> Difficile à évaluer ( regarder comment optimiser au max les paramètres d'un kmeans) 
+
+Q11. 
+
+Car les centroïdes de notre modèle représente un sift moyen pour l'ensemble des sifts de notre clusters, c'est donc difficilement interprétable puisque afficher ce sift n'est pas visuellement compréhensible. Il est donc plus intéressant d'observer quel centroide on associe à des régions d'un ensemble d'exemples d'images. 
+On pourra plus facilement interpréter quel cluster représente quels forme/région d'une image.
+
+Q12. Maigre
